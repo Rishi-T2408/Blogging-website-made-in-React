@@ -1,1 +1,1 @@
-# Blogging-website-made-in-React
+# Blogging website made by React
