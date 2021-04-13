@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.Loading, .Error{
+  font-size: 1.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(67, 139, 61);
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: rgb(95, 194, 95);
+  font-size: 1.8em;
+}
+.navbar .Links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.4em;
+}
+.navbar a:hover {
+  color: rgb(235, 250, 194);
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.B1, .B2{
+ 
+  border: none;
+  background: rgb(67, 139, 61);
+  border-radius: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 1em;
+}
+.B1 a{
+ 
+  color: white;
+}
+.B2 {
+  margin-top: 1em;
+  color: white;
+}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: rgb(95, 194, 95);
+  margin-bottom: 8px;
+}
+
+.preview{
+  text-decoration: none;
+}
+
+
+.blog-preview a{
+  text-decoration: none;
+}
+
+.Details h1{
+  color: rgb(95, 194, 95);
+  font-weight: bold;
+  padding-top: 0.4em;
+} 
+.Details h3{
+  color: rgb(85, 85, 85);
+  padding-top: 0.2em;
+
+}
+.Details p{
+  font-size: 1.18em;
+  padding-top: 1em;
+
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: rgb(95, 194, 95);
+  margin-bottom: 30px;
+}
+
+span{
+  color:  rgb(95, 194, 95);
+  font-size: 1.2em;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background:rgb(67, 139, 61);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.Pre1{
+  padding-top: 2em;
+}
+
+.P1, .P2, .P3{
+  padding-top: 0.6em;
+  padding-bottom: 1em;
+  font-size: 1em;
+  color: rgb(80, 80, 80);
+  font-weight: bold;
+ 
+}
+
+
+.Pcover{
+  background: #f0f0f0;
+  border-radius: 1em;
+  border: 1px solid gray;
+  height: 180vh;
+  text-align: left;
+  padding-left: 1em;
+}
+
+    
+.Pcover p{
+  max-width: 90%;
+}
+.Details button {
+  background:rgb(95, 194, 95);
+  color: #fff;
+  font-weight: bold;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.page1{
+  color: rgb(95, 194, 95);
+}
+.page2{
+  color: rgb(97, 96, 96);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
